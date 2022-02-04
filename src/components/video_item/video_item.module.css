@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* container */
+.container{width: 50%; box-sizing: border-box;cursor: pointer; padding: 0.2em; transition: all 0.25s ease-in;}
+.container:hover{transform: scale(1.02);}
+
+/* video */
+.video{display: flex; align-items: center; border: 1px solid lightgray;  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
+
+/* 이미지 */
+.thumbnail{width: 40%;height: 100%;}
+.metadata{margin-left: 0.2em;}
+
+/* 영상 타이틀 */
+.title{font-size: 0.8rem;}
+
+/* 채널 타이틀 */
+.channel{font-size: 0.6rem;}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./reset.css";
 import './app.css';
 import VideoList from "./components/video_list/video_list";
 
