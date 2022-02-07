@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* header */
+.header{display: flex;height: 4rem;padding: 0.8em 1em; background: #000; color: #fff;}
+.title{font-size: 30px; font-weight: bold; margin-left: 5px; box-sizing: border-box; color: #fff;}
+
+/* logo */
+.logo{display: flex; align-items: center; margin-right: 1em;}
+
+/* 검색바 */
+.input{flex-basis: 100%;font-size: 1.2rem; padding-left: 10px;}
+
+/* 검색 버튼 */
+.button{background: #EB3941;width: 100px; height: 100%; cursor: pointer; transition: all 0.2s;}
+.button:hover{background: #F5515F;}
+.buttonImg{width: 30px;}
